@@ -1,10 +1,29 @@
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CSS Zen Garden Top Level Styles || William Duffy || www.wdart.co.uk || 01 March 2006
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 body {	
-	color: rgb(112, 87, 34);
-	font: 10pt/16pt georgia, sans-serif;
+	color: #AB9F82;
+	font: 9pt/13pt georgia, sans-serif;
 	margin: 0px; padding: 0px;	
-	background: rgb(97, 165, 115)  no-repeat center top;
+	background: black url(images/background_body.jpg) no-repeat center top;
 	}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+abbr {
+	border-bottom: 1px dotted #AB9F82;
+	cursor: help;
+	font-weight: bold;
+	}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Container Styles
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .page-wrapper {
 	margin: 0px auto 0px auto;
@@ -12,33 +31,40 @@ body {
 	width: 750px;
 	}
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Intro Styles
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .intro header {
-	background: transparent url(images/background_pageheader.jpg) no-repeat 47px 22px;
+	background: transparent url(images/background_pageheader.jpg) no-repeat 17px 22px;
 	width: 464px; height: 446px;
 	}
 	
-.intro header h1, .intro header h2 {
-    margin-top: 50px;
-	text-indent: 2%;
-	white-space: nowrap;
-	overflow: visible;
-	}
+	.intro header h1, .intro header h2 {
+		margin: 0px;
+
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		}
 					
 			
 .intro .summary {
-	background: transparent url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh1He2Jj88xgOAiJ28_huJC2YKZc3jXTWAR1ijjZdWlCMEX2WFsg") no-repeat left top;
-	color: rgb(43, 116, 25);
-	position: absolute; top: 136px; left: 379px;
+	background: transparent url(images/txt_quicksummary.gif) no-repeat left top;
+	color: #D9D0B7;
+	position: absolute; top: 186px; left: 336px;
 	width: 172px; height: 160px;
 	}
 	
 	.intro .summary p:first-child {
-		display: visible;
+		display: none;
 		}
 
 	.intro .summary p:last-child {
 		background: transparent url(images/bullet_download.gif) no-repeat 0px 4px;		
-		color: rgb(50, 148, 63);
+		color: #E8D6A3;
 		padding: 0px 0px 0px 12px;
 		position: absolute; top: 1110px; left: 203px; z-index: 100;
 		width: 150px;
@@ -60,7 +86,7 @@ body {
 		}
 
 	.intro .preamble h3 {
-		background: transparent url("http://miriadna.com/desctopwalls/images/max/Light-green-fog.jpg") no-repeat left top;
+		background: transparent url(images/txt_sowhatisthisabout.gif) no-repeat left top;
 		height: 25px;
 		margin: 0px 0px -9px 27px;
 
@@ -69,6 +95,13 @@ body {
 		overflow: hidden;
 		}
 		
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* supportingText Styles
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .supporting .explanation, .supporting .participation, .supporting .benefits, .supporting .requirements {
 	background: transparent url(images/breakrule.gif) no-repeat center bottom;
 	padding: 25px 0px 37px 0px;
@@ -85,7 +118,8 @@ body {
 	
 	.supporting h3 {
 		height: 25px;
-		margin: 0px 0px -5px 27px;
+		margin: 0px 0px -9px 27px;
+
 		text-indent: 100%;
 		white-space: nowrap;
 		overflow: hidden;
@@ -99,7 +133,7 @@ body {
 .supporting footer {
 	background: transparent url(images/background_footer.jpg) no-repeat right bottom;
 	height: 20px;
-	padding: 152px 40px 50px 5px;
+	padding: 152px 0px 0px 0px;
 	text-align: right;
 	}
 	
@@ -107,16 +141,25 @@ body {
 	.supporting footer a:visited {color: #CCAD50;}
 	.supporting footer a:hover {color: #D2C9BB;}
 
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* linkList Styles
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .sidebar {
 	color: #E8D6A3;
 	position: absolute;	top: 75px; left: 516px;
 	width: 205px;
 	}
 
-	.sidebar a {color: rgb(226, 168, 19); text-decoration: none;}
-	.sidebar a:visited {color: rgb(18, 9, 56);}
+	.sidebar a {color: #E8D6A3; text-decoration: none;}
+	.sidebar a:visited {color: #E8D6A3;}
 	.sidebar a:hover {color: #DEC35A; text-decoration: underline;}
 
+
+	/* Begin lselect styles */
 	.sidebar .design-selection {
 		font-style: italic;
 		}
@@ -133,7 +176,7 @@ body {
 			
 		.sidebar .design-selection ul {
 			list-style-type: none;
-			margin: 0px 0px 200px 40px; padding: 0px;
+			margin: 0px 0px 0px 20px; padding: 0px;
 			}
 			
 			.sidebar .design-selection ul li {
@@ -143,7 +186,10 @@ body {
 	
 		.sidebar .design-selection a {display: block; font-style: normal; font-weight: bold;}
 		.sidebar .design-selection a.designer-name {display: inline; font-weight: normal;}
-
+	/* End lselect styles */
+	
+	
+	/* Begin larchives styles */
 	.sidebar .design-archives h3 {
 		background: transparent url(images/txt_archives.gif) no-repeat left top;		
 		margin: 0px 0px -17px 0px;
@@ -159,25 +205,29 @@ body {
 		margin: 0px 0px 0px 20px; padding: 0px;		
 		}
 		
-	.sidebar .design-archives ul li {
-			background: transparent url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMAq7UFA-ST6PiI5K3TfHlm3JP07o6Sx4jPSERnEvxrzJKDju") no-repeat left 4px;
+		.sidebar .design-archives ul li {
+			background: transparent url(images/bullet_designs.gif) no-repeat left 4px;
 			padding: 0px 0px 0px 14px;
 			}
+	/* End larchives styles */
+	
+	
+	/* Begin lresources styles */
 	.sidebar .zen-resources {
-		background: no-repeat left top;		
+		background: transparent url(images/background_lresources.jpg) no-repeat left top;		
 		padding: 117px 0px 0px 38px;
 		position: absolute; top: 950px; left: -37px;
 		width: 233px; height: 422px;
 		}
 		
 		.sidebar .zen-resources h3 {
-			background: url(images/txt_resources.gif) no-repeat left top;
-			margin: 0px 30px -17px 0px;
+			background: transparent url(images/txt_resources.gif) no-repeat left top;
+			margin: 0px 0px -17px 0px;
 			width: 168px; height: 79px;
 
 			text-indent: 100%;
 			white-space: nowrap;
-			overflow: visible;
+			overflow: hidden;
 			} 
 			
 	.sidebar .zen-resources ul {
@@ -189,5 +239,4 @@ body {
 			background: transparent url(images/bullet_resources.gif) no-repeat left 5px;
 			padding: 0px 0px 0px 14px;
 			}
-
-	
+	/* End lresources styles */
