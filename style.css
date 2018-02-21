@@ -1,0 +1,193 @@
+
+body {	
+	color: rgb(112, 87, 34);
+	font: 10pt/16pt georgia, sans-serif;
+	margin: 0px; padding: 0px;	
+	background: rgb(97, 165, 115)  no-repeat center top;
+	}
+
+.page-wrapper {
+	margin: 0px auto 0px auto;
+	position: relative;
+	width: 750px;
+	}
+
+.intro header {
+	background: transparent url(images/background_pageheader.jpg) no-repeat 47px 22px;
+	width: 464px; height: 446px;
+	}
+	
+.intro header h1, .intro header h2 {
+    margin-top: 50px;
+	text-indent: 2%;
+	white-space: nowrap;
+	overflow: visible;
+	}
+					
+			
+.intro .summary {
+	background: transparent url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh1He2Jj88xgOAiJ28_huJC2YKZc3jXTWAR1ijjZdWlCMEX2WFsg") no-repeat left top;
+	color: rgb(43, 116, 25);
+	position: absolute; top: 136px; left: 379px;
+	width: 172px; height: 160px;
+	}
+	
+	.intro .summary p:first-child {
+		display: visible;
+		}
+
+	.intro .summary p:last-child {
+		background: transparent url(images/bullet_download.gif) no-repeat 0px 4px;		
+		color: rgb(50, 148, 63);
+		padding: 0px 0px 0px 12px;
+		position: absolute; top: 1110px; left: 203px; z-index: 100;
+		width: 150px;
+		}
+		
+		.intro .summary p:last-child a {color: #DEC35A; text-decoration: underline;}
+		.intro .summary p:last-child a:visited {color: #DEC35A;}
+		.intro .summary p:last-child a:hover {color: #E8D6A3;}
+
+
+.intro .preamble {
+	background: transparent url(images/breakrule.gif) no-repeat center bottom;
+	padding: 25px 0px 37px 0px;
+	width: 464px;
+	}
+
+	.intro .preamble p:nth-child(2), .intro .preamble p:nth-child(3), .intro .preamble p:nth-child(4), .intro .preamble p:nth-child(5), .intro .preamble p:nth-child(6) {
+		padding: 0px 0px 0px 49px;
+		}
+
+	.intro .preamble h3 {
+		background: transparent url("http://miriadna.com/desctopwalls/images/max/Light-green-fog.jpg") no-repeat left top;
+		height: 25px;
+		margin: 0px 0px -9px 27px;
+
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		}
+		
+.supporting .explanation, .supporting .participation, .supporting .benefits, .supporting .requirements {
+	background: transparent url(images/breakrule.gif) no-repeat center bottom;
+	padding: 25px 0px 37px 0px;
+	width: 464px;
+	}
+
+	.supporting p:nth-child(2), .supporting p:nth-child(3), .supporting p:nth-child(4), .supporting p:nth-child(5), .supporting p:nth-child(6) {
+		padding: 0px 0px 0px 49px;
+		} 
+		
+		.supporting a {color: #D2C9BB;}
+		.supporting a:visited {color: #D2C9BB;}
+		.supporting a:hover {color: #D34E1A;}
+	
+	.supporting h3 {
+		height: 25px;
+		margin: 0px 0px -5px 27px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		}
+
+		.supporting .explanation h3 {background: transparent url(images/txt_participation.gif) no-repeat left top;}
+		.supporting .participation h3 {background: transparent url(images/txt_benefits.gif) no-repeat left top;}
+		.supporting .benefits h3 {background: transparent url(images/txt_participation.gif) no-repeat left top;}
+		.supporting .requirements h3 {background: transparent url(images/txt_requirements.gif) no-repeat left top;}
+
+.supporting footer {
+	background: transparent url(images/background_footer.jpg) no-repeat right bottom;
+	height: 20px;
+	padding: 152px 40px 50px 5px;
+	text-align: right;
+	}
+	
+	.supporting footer a {color: #CCAD50; font-weight: bold; text-decoration: none;}
+	.supporting footer a:visited {color: #CCAD50;}
+	.supporting footer a:hover {color: #D2C9BB;}
+
+.sidebar {
+	color: #E8D6A3;
+	position: absolute;	top: 75px; left: 516px;
+	width: 205px;
+	}
+
+	.sidebar a {color: rgb(226, 168, 19); text-decoration: none;}
+	.sidebar a:visited {color: rgb(18, 9, 56);}
+	.sidebar a:hover {color: #DEC35A; text-decoration: underline;}
+
+	.sidebar .design-selection {
+		font-style: italic;
+		}
+	
+		.sidebar .design-selection h3 {
+			background: transparent url(images/txt_designs.gif) no-repeat left top;
+			margin: 0px 0px -17px 0px;
+			width: 168px; height: 79px;
+
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			} 
+			
+		.sidebar .design-selection ul {
+			list-style-type: none;
+			margin: 0px 0px 200px 40px; padding: 0px;
+			}
+			
+			.sidebar .design-selection ul li {
+				background: transparent url(images/bullet_designs.gif) no-repeat left 4px;
+				padding: 0px 0px 12px 14px;
+				}
+	
+		.sidebar .design-selection a {display: block; font-style: normal; font-weight: bold;}
+		.sidebar .design-selection a.designer-name {display: inline; font-weight: normal;}
+
+	.sidebar .design-archives h3 {
+		background: transparent url(images/txt_archives.gif) no-repeat left top;		
+		margin: 0px 0px -17px 0px;
+		width: 168px; height: 79px;
+
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		} 
+		
+	.sidebar .design-archives ul {
+		list-style-type: none;
+		margin: 0px 0px 0px 20px; padding: 0px;		
+		}
+		
+	.sidebar .design-archives ul li {
+			background: transparent url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMAq7UFA-ST6PiI5K3TfHlm3JP07o6Sx4jPSERnEvxrzJKDju") no-repeat left 4px;
+			padding: 0px 0px 0px 14px;
+			}
+	.sidebar .zen-resources {
+		background: no-repeat left top;		
+		padding: 117px 0px 0px 38px;
+		position: absolute; top: 950px; left: -37px;
+		width: 233px; height: 422px;
+		}
+		
+		.sidebar .zen-resources h3 {
+			background: url(images/txt_resources.gif) no-repeat left top;
+			margin: 0px 30px -17px 0px;
+			width: 168px; height: 79px;
+
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: visible;
+			} 
+			
+	.sidebar .zen-resources ul {
+		list-style-type: none;
+		margin: 0px 0px 0px 20px; padding: 0px;
+		}
+		
+		.sidebar .zen-resources ul li {
+			background: transparent url(images/bullet_resources.gif) no-repeat left 5px;
+			padding: 0px 0px 0px 14px;
+			}
+
+	
